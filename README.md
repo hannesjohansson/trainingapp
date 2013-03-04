@@ -7,6 +7,8 @@ Methods
 -----------
 TDD
 Agile/Lean
+Paraprog
+
 
 Technology
 -----------
