@@ -8,3 +8,8 @@ Setting up Node.js / Express
 - npm install
 (last step creates node modules)
 
+Starting mongoDB
+===========
+- cd /usr/local/mongodb
+- ./bin/mongod
+
