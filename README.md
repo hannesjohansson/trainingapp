@@ -11,10 +11,23 @@ Methods
 - Pair programming / development
 
 
-Technology
+UX / Management tools
 -----------
-- Node.js (Server) - www.nodejs.org
-- MongoDB (Database) - www.mongodb.com
-- Can.js (Front end MVVM) - www.canjs.us
 - Trello (scrum board) - www.trello.com
 - POP (interactive prototypes) - www.popapp.in
+
+Front end
+-----------
+- SCSS
+- jQuery
+- Can.js (Front end MVVM) - www.canjs.us
+- EJS Templates (bundled with canj.js)
+
+
+Server side
+-----------
+- Node.js (Server) - www.nodejs.org
+- Express (NodeJS Framework) - http://expressjs.com/guide.html
+- MongoDB (Database) - www.mongodb.com
+- Mocha (BDD testing framework) - http://visionmedia.github.com/mocha/
+
