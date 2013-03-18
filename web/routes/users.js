@@ -19,7 +19,7 @@ db.open(function(err, db) {
 exports.findAll = function(req, res){
 	db.collection('users', function(err, collection) {
 		collection.find().toArray(function(err, items) {
-			res.send(items);
+			
 		});
 	});
 };
