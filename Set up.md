@@ -1,3 +1,7 @@
+Guide - Rest API with NodeJs, mongoDB and express
+===========
+http://coenraets.org/blog/2012/10/creating-a-rest-api-using-node-js-express-and-mongodb/
+
 Setting up Node.js / Express
 ===========
 
