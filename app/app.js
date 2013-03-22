@@ -34,8 +34,9 @@ app.get('/', routes.index);
 app.get('/partials/:name', routes.partials);
 
 // JSON API
-
-app.get('/api/findAll', api.findAll);
+app.get('/api/users/', api.findAll);
+app.get('/api/users/:id', api.findOne);
+app.delete('/api/users/:id', api.destroy);
 
 // redirect all others to the index (HTML5 history)
 app.get('*', routes.index);
