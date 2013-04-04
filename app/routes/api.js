@@ -47,7 +47,6 @@
 
  exports.create = function(req, res){
  	var user = req.body;
- 	console.log('Adding user: ' + JSON.stringify(user));
  	db.collection('users', function(err, collection) {
  		collection.insert(user, {safe:true}, function(err, result) {
  			if (err) {
@@ -63,8 +62,8 @@
  exports.update = function(req, res){
  	var id = req.params.id;
  	var user = req.body;
+ 	console.log(user)
  	console.log('Updating user: ' + id);
- 	console.log(JSON.stringify(user));
  	db.collection('users', function(err, collection) {
  		collection.update({'_id':new BSON.ObjectID(id)}, user, {safe:true}, function(err, result) {
  			if (err) {
