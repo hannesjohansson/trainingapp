@@ -29,5 +29,5 @@ Server side
 - Node.js (Server) - www.nodejs.org
 - Express (NodeJS Framework) - http://expressjs.com/guide.html
 - MongoDB (Database) - www.mongodb.com
-- Mocha (BDD testing framework) - http://visionmedia.github.com/mocha/
+- Mocha (BDD testing framework) - http://mochajs.org/
 
